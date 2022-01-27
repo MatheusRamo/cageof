@@ -14,14 +14,13 @@ function Contato() {
       </ul>
 
       <div className='d-flex flex-column align-items-center'>
-        <a href="https://www.facebook.com/segufopa" className="p-2 text-decoration-none text-info" target="_blank">
+        <a href="https://www.facebook.com/segufopa" className="p-2 text-decoration-none text-info">
           <FontAwesomeIcon icon={faFacebook}/> Facebook
         </a>
-        <a href="https://www.instagram.com/ufopaseg" className="p-2 text-decoration-none text-warning" target="_blank">
+        <a href="https://www.instagram.com/ufopaseg" className="p-2 text-decoration-none text-warning">
           <FontAwesomeIcon icon={faInstagram}/> Instagram
         </a>
-        <a href="https://www.youtube.com/channel/UCBCajnCZw753bjzUp8MUNAw" className="p-2 text-decoration-none text-danger"
-          target="_blank">
+        <a href="https://www.youtube.com/channel/UCBCajnCZw753bjzUp8MUNAw" className="p-2 text-decoration-none text-danger">
           <FontAwesomeIcon icon={faYoutube}/> Youtube
         </a>
       </div>
