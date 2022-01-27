@@ -8,7 +8,7 @@ function Contato() {
   return (
     <div className='d-flex flex-column align-items-center py-5 my-5'>
       <MyHead title="Contato"/>
-      <h3>Contato</h3>
+      <h1 className="lg:fs-3 md:fs-4 sm:fs-5 xs:fs-6">Contato</h1>
 
       <ul className='nav flex-column'>
         <li ><a className='text-decoration-none text-black' href='mailto:cageof.ufopa@gmail.com'><strong> <FaEnvelopeOpen/> Email:</strong> cageof.ufopa@gmail.com</a></li>
