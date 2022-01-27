@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from 'next/link'
+import Image from 'next/image'
 import { ReactElement } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -8,9 +8,8 @@ const Header = () => {
         <header className='p-3 bg-light'>
             <div className='d-flex justify-content-around align-items-center'>
                 <Link href='/'>
-                    <a className='text-decoration-none text-white'>
-                    <Image src='/logo.png' width={50}
-      height={50}/>
+                    <a>
+                    <Image src='/logo.png' width={50} height={50}/>
                     </a>
                 </Link>
 
@@ -51,4 +50,4 @@ const Header = () => {
 
     );
 };
-export default Header;
+export default Header

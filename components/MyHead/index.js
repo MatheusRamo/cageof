@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Head from 'next/head'
 
 function MyHead() {
@@ -12,4 +12,4 @@ function MyHead() {
         </div>);
 }
 
-export default MyHead;
+export default MyHead

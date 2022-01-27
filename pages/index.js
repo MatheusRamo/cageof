@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <MyHead/>
       <main>
-        <h1>Home</h1>
+
       </main>
     </div>
   )
