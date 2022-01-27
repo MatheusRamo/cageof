@@ -3,7 +3,7 @@ import React from 'react'
 function Sobre() {
   return(
      <div className='container'>
-     <h1>Centro Acadêmico de Geofísica - CAGEOF</h1>
+     <h3>Centro Acadêmico de Geofísica - CAGEOF</h3>
      
      <ul>
        <li><strong>Data de Fundação:</strong> 01/05/2014</li>
