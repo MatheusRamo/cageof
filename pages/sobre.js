@@ -1,11 +1,13 @@
 import React from 'react'
+import MyHead from '../components/MyHead'
 
 function Sobre() {
   return (
-    <div className='d-flex flex-column align-items-center'>
+    <div className='d-flex flex-column align-items-center py-5'>
+      <MyHead title="Sobre Nos" />
       <h3>Centro Acadêmico de Geofísica - CAGEOF</h3>
 
-      <ul>
+      <ul >
         <li><strong>Data de Fundação:</strong> 01/05/2014</li>
         <li><strong>Quantidade de Membros:</strong> 08 Titulares e 08 Suplentes</li>
         <li><strong>Período da atual gestão:</strong> 01/12/21 Até 15/12/22</li>

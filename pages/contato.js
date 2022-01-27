@@ -1,11 +1,13 @@
 import React from 'react'
 import {FaFacebook, FaInstagram, FaPhone, FaEnvelopeOpen} from 'react-icons/fa'
+import MyHead from '../components/MyHead'
 
 
 
 function Contato() {
   return (
-    <div className='d-flex flex-column align-items-center'>
+    <div className='d-flex flex-column align-items-center py-5 my-5'>
+      <MyHead title="Contato"/>
       <h3>Contato</h3>
 
       <ul className='nav flex-column'>
