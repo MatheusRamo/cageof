@@ -3,10 +3,10 @@ import MyHead from '../components/MyHead'
 
 function Sobre() {
   return (
-    <div className="container px-auto">
+    <div className="container px-4">
       <div className='d-flex flex-column align-items-center py-5'>
         <MyHead title="Sobre Nos" />
-        <h5 className="px-auto">Centro Acadêmico de Geofísica - CAGEOF</h5>
+        <h1 className="lg:fs-1 sm:fs-4">Centro Acadêmico de Geofísica - CAGEOF</h1>
 
         <ul >
           <li><strong>Data de Fundação:</strong> 01/05/2014</li>
