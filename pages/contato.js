@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaFacebook, FaInstagram} from 'react-icons/fa'
+import {FaFacebook, FaInstagram, FaPhone, FaEnvelopeOpen} from 'react-icons/fa'
 
 
 
@@ -8,8 +8,9 @@ function Contato() {
     <div className='d-flex flex-column align-items-center'>
       <h3>Contato</h3>
 
-      <ul>
-        <li ><a className='text-decoration-none text-black' href='mailto:cageof.ufopa@gmail.com'><strong>Email:</strong> cageof.ufopa@gmail.com</a></li>
+      <ul className='nav flex-column'>
+        <li ><a className='text-decoration-none text-black' href='mailto:cageof.ufopa@gmail.com'><strong> <FaEnvelopeOpen/> Email:</strong> cageof.ufopa@gmail.com</a></li>
+        <li ><a className='text-decoration-none text-black'><strong><FaPhone/> Telefone: </strong> (93) 9 9214-1785</a></li>
       </ul>
 
       <div className='d-flex flex-column align-items-center'>
