@@ -1,6 +1,5 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import {FaFacebook, FaInstagram} from 'react-icons/fa'
 
 
 
@@ -15,13 +14,10 @@ function Contato() {
 
       <div className='d-flex flex-column align-items-center'>
         <a href="https://www.facebook.com/segufopa" className="p-2 text-decoration-none text-info">
-          <FontAwesomeIcon icon={faFacebook}/> Facebook
+        <FaFacebook/>  facebook
         </a>
         <a href="https://www.instagram.com/ufopaseg" className="p-2 text-decoration-none text-warning">
-          <FontAwesomeIcon icon={faInstagram}/> Instagram
-        </a>
-        <a href="https://www.youtube.com/channel/UCBCajnCZw753bjzUp8MUNAw" className="p-2 text-decoration-none text-danger">
-          <FontAwesomeIcon icon={faYoutube}/> Youtube
+          <FaInstagram/> Instagram
         </a>
       </div>
     </div>

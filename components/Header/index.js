@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { ReactElement } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {FaHome, FaRss, FaEnvelope, FaUsers} from 'react-icons/fa'
 
 const Header = () => {
     return (
@@ -17,21 +16,21 @@ const Header = () => {
                     <li>
                         <Link href='/'>
                             <a className='flex nav-link px-2 text-black'>
-                            <FontAwesomeIcon  icon="home" /> Home
+                            <FaHome/> Home
                             </a>
                         </Link>
                     </li>
                     <li>
                         <Link href='/blog'>
                             <a className='nav-link px-2 text-black'>
-                            <FontAwesomeIcon icon="rss" /> Blog
+                            <FaRss/> Blog
                             </a>
                         </Link>
                     </li>
                     <li>
                         <Link href='/contato'>
                             <a className='nav-link px-2 text-black'>
-                            <FontAwesomeIcon icon="envelope" /> Contato
+                            <FaEnvelope/> Contato
                             </a>
                         </Link>
                     </li>
@@ -39,7 +38,7 @@ const Header = () => {
                     <li>
                         <Link href='/sobre'>
                             <a className='nav-link px-2 text-black'>
-                            <FontAwesomeIcon icon="user" /> Sobre Nos
+                            <FaUsers/> Sobre Nos
                             </a>
                         </Link>
                     </li>
