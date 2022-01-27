@@ -22,7 +22,7 @@ function Contato() {
         </a>
         <a href="https://www.youtube.com/channel/UCBCajnCZw753bjzUp8MUNAw" className="p-2 text-decoration-none text-danger"
           target="_blank">
-          <FontAwesomeIcon icon={faYoutube}/> youtube
+          <FontAwesomeIcon icon={faYoutube}/> Youtube
         </a>
       </div>
     </div>
